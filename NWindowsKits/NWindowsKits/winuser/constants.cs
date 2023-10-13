@@ -397,6 +397,47 @@ namespace NWindowsKits
         // C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um/WinUser.h:537
         public const int VK_HELP = unchecked((int)0x2F);
 
+        // Source: https://gist.github.com/Nordaj/cc6cadcbee1019a3299939d0f1b86296
+
+        public const int VK_Num0 = unchecked((int)0x30); //Top row 0 key (Matches '0')
+	    public const int VK_Num1 = unchecked((int)0x31); //Top row 1 key (Matches '1')
+	    public const int VK_Num2 = unchecked((int)0x32); //Top row 2 key (Matches '2')
+	    public const int VK_Num3 = unchecked((int)0x33); //Top row 3 key (Matches '3')
+	    public const int VK_Num4 = unchecked((int)0x34); //Top row 4 key (Matches '4')
+	    public const int VK_Num5 = unchecked((int)0x35); //Top row 5 key (Matches '5')
+	    public const int VK_Num6 = unchecked((int)0x36); //Top row 6 key (Matches '6')
+	    public const int VK_Num7 = unchecked((int)0x37); //Top row 7 key (Matches '7')
+	    public const int VK_Num8 = unchecked((int)0x38); //Top row 8 key (Matches '8')
+	    public const int VK_Num9 = unchecked((int)0x39); //Top row 9 key (Matches '9')
+                                         //0x3A - 0x40 : unassigned
+
+        public const int VK_A = unchecked((int)0x41); //A key (Matches 'A') 
+        public const int VK_B = unchecked((int)0x42); //B key (Matches 'B')
+        public const int VK_C = unchecked((int)0x43); //C key (Matches 'C')
+        public const int VK_D = unchecked((int)0x44); //D key (Matches 'D')
+        public const int VK_E = unchecked((int)0x45); //E key (Matches 'E')
+        public const int VK_F = unchecked((int)0x46); //F key (Matches 'F')
+        public const int VK_G = unchecked((int)0x47); //G key (Matches 'G')
+        public const int VK_H = unchecked((int)0x48); //H key (Matches 'H')
+        public const int VK_I = unchecked((int)0x49); //I key (Matches 'I')
+        public const int VK_J = unchecked((int)0x4A); //J key (Matches 'J')
+        public const int VK_K = unchecked((int)0x4B); //K key (Matches 'K')
+        public const int VK_L = unchecked((int)0x4C); //L key (Matches 'L')
+        public const int VK_M = unchecked((int)0x4D); //M key (Matches 'M')
+        public const int VK_N = unchecked((int)0x4E); //N key (Matches 'N')
+        public const int VK_O = unchecked((int)0x4F); //O key (Matches 'O')
+        public const int VK_P = unchecked((int)0x50); //P key (Matches 'P')
+        public const int VK_Q = unchecked((int)0x51); //Q key (Matches 'Q')
+        public const int VK_R = unchecked((int)0x52); //R key (Matches 'R')
+        public const int VK_S = unchecked((int)0x53); //S key (Matches 'S')
+        public const int VK_T = unchecked((int)0x54); //T key (Matches 'T')
+        public const int VK_U = unchecked((int)0x55); //U key (Matches 'U')
+        public const int VK_V = unchecked((int)0x56); //V key (Matches 'V')
+        public const int VK_W = unchecked((int)0x57); //W key (Matches 'W')
+        public const int VK_X = unchecked((int)0x58); //X key (Matches 'X')
+        public const int VK_Y = unchecked((int)0x59); //Y key (Matches 'Y')
+        public const int VK_Z = unchecked((int)0x5A); //Z key (Matches 'Z')
+
         // C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um/WinUser.h:545
         public const int VK_LWIN = unchecked((int)0x5B);
 
