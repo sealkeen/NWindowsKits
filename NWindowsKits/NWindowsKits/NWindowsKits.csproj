@@ -14,7 +14,8 @@
       This package contains Dllimport functions, enums, structs(union) and constants(define). They are generated
       from WindowsKits information that is parsed by libclang.
       Implemented user32.dll, winmm.dll, dxgi.dll, d3d11.dll and d3dcompiler_47.dll.
-    </Description>    
+    </Description>
+    <Platforms>AnyCPU;x86</Platforms>    
   </PropertyGroup>
 
 </Project>
